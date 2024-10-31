@@ -31,38 +31,38 @@ Once connected, the app allows real-time data reception from the IoT device. Thi
 # ionic_react
 Ionic React Studies
 
-## O que é Ionic?
+## What is Ionic?
 
-O Ionic é um framework de desenvolvimento de aplicativos móveis que permite criar aplicações híbridas, ou seja, que rodam tanto em Android quanto em iOS a partir de uma única base de código. Ele utiliza tecnologias web como HTML, CSS, e JavaScript (ou Typescript), e com o Ionic React, você pode usar o React como framework JavaScript para a interface e lógica de seus aplicativos.
+Ionic is a mobile app development framework that enables the creation of hybrid applications, meaning they run on both Android and iOS from a single codebase. It uses web technologies like HTML, CSS, and JavaScript (or TypeScript). With Ionic React, you can use React as the JavaScript framework to build the interface and logic of your applications.
 
-## Requisitos Básicos
+## Basic Requirements
 
-Antes de começar, certifique-se de que você tem os seguintes requisitos instalados:
+Before getting started, ensure that you have the following prerequisites installed:
 
-1- Node.js (versão 16 ou superior) - Download
-2- NPM (que já vem com o Node.js) ou Yarn
-3- Ionic CLI - para instalar o CLI do Ionic, basta rodar:
+1. Node.js (version 16 or higher) - [Download here](https://nodejs.org)
+2. NPM (comes with Node.js) or Yarn
+3. Ionic CLI - To install the Ionic CLI, simply run:
 
-```
-npm install -g @ionic/cli
-```
+    ```bash
+    npm install -g @ionic/cli
+    ```
 
-## Criando seu Primeiro Projeto Ionic com React
+## Creating Your First Ionic Project with React
 
-1- Iniciar um projeto Ionic com React: Abra seu terminal e execute o seguinte comando para criar um novo projeto com o template em branco:
+1. **Initialize an Ionic Project with React**: Open your terminal and run the following command to create a new project with the blank template:
 
-```
-ionic start myApp blank --type=react
+    ```bash
+    ionic start myApp blank --type=react
+    ```
 
-```
+    This command creates an app called `myApp` with the "blank" template, which is the simplest for getting started. The `--type=react` parameter specifies that the project will use React.
 
-Esse comando cria um aplicativo chamado myApp com o template "blank", que é o mais simples para iniciarmos. O parâmetro --type=react especifica que o projeto será feito com React.
+2. **Run the Project**: Navigate to the project directory and start the development server:
 
-2- Executar o projeto: Navegue até o diretório do projeto e inicie o servidor de desenvolvimento:
+    ```bash
+    cd myApp
+    ionic serve
+    ```
 
-```
-cd myApp
-ionic serve
-```
+    This will open your project in the browser with live-reload (any code changes will automatically be reflected).
 
-Isso abrirá seu projeto no navegador com live-reload (ou seja, qualquer alteração no código será refletida automaticamente).
