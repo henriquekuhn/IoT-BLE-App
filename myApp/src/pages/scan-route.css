@@ -1,0 +1,5 @@
+.ion-icon-config {
+    margin: 0 auto; /* Para centralizar o ícone horizontalmente */
+    display: block; /* Faz com que o ícone se comporte como um bloco */
+    font-size: 80px;
+  }

@@ -1,0 +1,35 @@
+ion-button {
+    --background: #5c77d900;
+    --background-hover: #0040ff80;
+    --background-activated: #eeeffc00;
+    --background-focused: #153b9c00;
+  
+    --color: rgb(79, 79, 79);
+  
+    --border-radius: 500px;
+    --border-color: #000;
+    --border-style: solid;
+    --border-width: 0px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+    --ripple-color: rgba(124, 119, 122, 0.445);
+    
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+  }
+
+  .custom-height {
+    height: 200px; /* Defina a altura desejada aqui */
+    
+  }
+
+  .debug-row {
+    background-color: #5b70b1;
+  }
+
+  .ion-icon-config {
+    margin: 0 auto; /* Para centralizar o ícone horizontalmente */
+    display: block; /* Faz com que o ícone se comporte como um bloco */
+    font-size: 300px;
+  }
